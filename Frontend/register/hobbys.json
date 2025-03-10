@@ -1,0 +1,28 @@
+{
+    "Sport": [
+        "Voetbal",
+        "Hardlopen",
+        "Fitness",
+        "Basketbal",
+        "Volleybal",
+        "Tennis",
+        "Hockey",
+        "Padel"
+    ],
+    "Games": [
+        "Fortnite",
+        "Roblox",
+        "Call of Duty",
+        "Minecraft",
+        "Tetris"
+    ],
+    "Films(Themas)": [
+        "Actie",
+        "Komedie",
+        "Sciencefiction",
+        "Documentaire",
+        "Romantische(komedie)",
+        "Horror",
+        "Thriller"
+    ]
+}

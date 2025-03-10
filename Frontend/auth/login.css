@@ -1,0 +1,84 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f3b9;
+    font-family: "Patrick Hand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.square {
+    width: 412px;
+    height: 479px;
+    background-color: #F3F2E0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #9a8b6e;
+}
+
+input {
+    height: 40px;
+    width: 270px;
+    margin: 8px;
+    background-color: #F8DFB0;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #9a8b6e;
+}
+
+button {
+    height: 40;
+    width: 144px;
+    background-color: #FBFFA8;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #949762;
+    justify-content: center;
+}
+
+image {
+    width: 50%;
+    height: 50%;
+    width: 50%;
+    height: 50%;
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 2px solid black;
+    box-sizing: border-box;
+    position: absolute;
+}
+  #linksboven{
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  #rechtsboven{
+    right: 0;
+    top: 0;
+    position: absolute;
+  }
+  #rechtsonder{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  #linksonder{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+  }

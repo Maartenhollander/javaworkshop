@@ -1,0 +1,23 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+}
+
+body {
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f3b9;
+    font-family: "Patrick Hand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+

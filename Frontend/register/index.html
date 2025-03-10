@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby's formulier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <form>
+
+        <label for="hoofd">Hobbycategorie:</label>
+        <select name="hoofd" id="hoofd">
+            <option value="">Kies een categorie</option>
+        </select>
+
+        <br><br>
+
+        <label for="sub">Subcategorie:</label>
+        <select name="sub" id="sub" disabled>
+            <option value="">Kies eerst een categorie</option>
+        </select>
+    </form>
+
+    <script src="script.js"></script>
+
+    <div class="hobby-form">
+        <h3>Welke hobby zou je willen uitproberen?</h3>
+        <form action="/action_page.php">
+            <textarea id="w3review" name="w3review" rows="4"
+                cols="50">...</textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>
